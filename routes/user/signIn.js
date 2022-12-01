@@ -25,6 +25,7 @@ module.exports = (app) => {
     if (errorsInValidation) {
       req.session['warning'] = errorsInValidation[0].msg;
       res.redirect('/sign-in');
+      return;
     }
 
     const connection = app.dao.connectionFactory();

@@ -19,13 +19,15 @@ module.exports = (app) => {
     const email = req.body.email;
     const password = req.body.password;
 
-    req.checkBody('username', 'Username is Empty').notEmpty().isLength({min: 4});
+    req.checkBody('username', 'Username is empty or too short(4)').notEmpty().isLength({min: 4});
     req.checkBody('email', 'Email is not Valid').notEmpty().isEmail();
     req.checkBody('password', 'Password must be at least 4 digits').notEmpty();
     const errosInValidation = req.validationErrors();
     if (errosInValidation) {
+      console.log(errosInValidation);
       req.session['warning'] = errosInValidation[0].msg;
       res.redirect('/sign-up');
+      return;
     };
 
     const connection = app.dao.connectionFactory();
@@ -44,7 +46,7 @@ module.exports = (app) => {
           res.redirect('/');
         })
         .catch((err) => {
-          req.session['warning'] = err;
+          req.session['warning'] = err.message;
           res.redirect('/sign-up');
         });
   });

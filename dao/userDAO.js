@@ -9,8 +9,8 @@ class UserDAO {
       const cryptedPassword = bcrypt.hashSync(password);
       this.connection
           .query('select email from users where email = ? OR username = ?', [email, username],
-              (err, result) => {
-                const emailNotExist = Object.entries(result).length === 0;
+          (err, result) => {
+                const emailNotExist = (result == undefined) || Object.entries(result).length === 0;
                 if (emailNotExist) {
                   this.connection
                       .query('INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES (null, ?, ?, ?)',
