@@ -33,7 +33,7 @@ Các dịch vụ cần chuẩn bị: AWS Cloud9, AWS RDC, AWS Lambda, AWS EC2.
 - Tận dụng các sản phẩm AWS khác như Amazon Lightsail, AWS CodeStar và AWS CodePipeline.
 - *Tính năng của AWS Cloud9:*
 <img src="./IMG/Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.005.png" alt="aws" />
-*Trình chỉnh sửa đầy đủ chức năng:* AWS Cloud9 bao gồm một trình chỉnh sửa dựa trên trình duyệt giúp bạn dễ dàng viết, chạy và gỡ lỗi các dự án của mình. Khi bạn nhập, các đề xuất hoàn thành mã và gợi ý mã sẽ xuất hiện trong trình chỉnh sửa, giúp bạn viết mã nhanh hơn và tránh lỗi
+- *Trình chỉnh sửa đầy đủ chức năng:* AWS Cloud9 bao gồm một trình chỉnh sửa dựa trên trình duyệt giúp bạn dễ dàng viết, chạy và gỡ lỗi các dự án của mình. Khi bạn nhập, các đề xuất hoàn thành mã và gợi ý mã sẽ xuất hiện trong trình chỉnh sửa, giúp bạn viết mã nhanh hơn và tránh lỗi
 
 
 
