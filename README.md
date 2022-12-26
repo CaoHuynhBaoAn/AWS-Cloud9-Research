@@ -16,7 +16,7 @@ Cao Huỳnh Bảo An – 20126087 <br/>
 Từ sơ đồ (bắt đầu từ dưới cùng), bạn sử dụng **AWS Cloud9 IDE**, chạy trong trình duyệt web trên máy tính cục bộ của bạn, để tương tác với **môi trường AWS Cloud9** của bạn. Tài nguyên điện toán (ví dụ: phiên bản **Amazon EC2** hoặc máy chủ của riêng bạn) kết nối với môi trường đó. Cuối cùng, công việc của bạn được lưu trữ trong **kho lưu trữ AWS CodeCommit** hoặc loại kho lưu trữ từ xa khác.
 
 
-![What is AWS Cloud9? - AWS Cloud9](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.003.png)![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.004.png)Các dịch vụ cần chuẩn bị: AWS Cloud9, AWS RDC, AWS Lambda, AWS EC2. 
+Các dịch vụ cần chuẩn bị: AWS Cloud9, AWS RDC, AWS Lambda, AWS EC2. 
 
 
 
@@ -32,44 +32,36 @@ Từ sơ đồ (bắt đầu từ dưới cùng), bạn sử dụng **AWS Cloud
 - Nhắm mục tiêu AWS Lambda, Cổng API Amazon và các ứng dụng không có máy chủ AWS.
 - Tận dụng các sản phẩm AWS khác như Amazon Lightsail, AWS CodeStar và AWS CodePipeline.
 - *Tính năng của AWS Cloud9:*
-- ![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.005.png)*Trình chỉnh sửa đầy đủ chức năng:* AWS Cloud9 bao gồm một trình chỉnh sửa dựa trên trình duyệt giúp bạn dễ dàng viết, chạy và gỡ lỗi các dự án của mình. Khi bạn nhập, các đề xuất hoàn thành mã và gợi ý mã sẽ xuất hiện trong trình chỉnh sửa, giúp bạn viết mã nhanh hơn và tránh lỗi
+*Trình chỉnh sửa đầy đủ chức năng:* AWS Cloud9 bao gồm một trình chỉnh sửa dựa trên trình duyệt giúp bạn dễ dàng viết, chạy và gỡ lỗi các dự án của mình. Khi bạn nhập, các đề xuất hoàn thành mã và gợi ý mã sẽ xuất hiện trong trình chỉnh sửa, giúp bạn viết mã nhanh hơn và tránh lỗi
 
 
 
 - *Nhiều lựa chọn cấu hình chạy:* AWS Cloud9 hỗ trợ hơn 40 ngôn ngữ lập trình và loại ứng dụng bao gồm JavaScript, Python, PHP, Ruby, Go và C++. Với Cloud9, bạn có thể chọn từ cấu hình chạy mặc định hoặc xác định cấu hình tùy chỉnh bằng cách chỉ định biến môi trường, tên tệp, tùy chọn dòng lệnh,….
 
-![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.006.png)
+
 
 - *Trình gỡ lỗi tích hợp:* AWS Cloud9 đi kèm với một trình gỡ lỗi tích hợp, cung cấp các chức năng thường được sử dụng như thiết lập điểm ngắt, xem qua mã và kiểm tra các biến của bất kỳ ứng dụng PHP, Python, JS/Node.js, C/C++,..
-
-![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.007.png)
-
-
-
-
 
 
 
 - *Công cụ tích hợp để phát triển Serverless:* AWS Cloud9 cho phép bạn dễ dàng xây dựng các ứng dụng serverless bằng cách cung cấp trải nghiệm tích hợp để bắt đầu, viết và gỡ lỗi mã ứng dụng serverless. Môi trường phát triển Cloud9 được đóng gói sẵn SDK, công cụ và thư viện cần thiết để phát triển ứng dụng serverless.
 
-![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.008.png)
+
 
 - *Khả năng kết nối với mọi nền tảng máy chủ Linux:* Bạn có thể linh hoạt chạy các môi trường phát triển AWS Cloud9 trên phiên bản Amazon EC2 Linux được quản lý hoặc bất kỳ máy chủ Linux nào mà bạn đang sử dụng hiện nay. Bạn chỉ có thể chọn tùy chọn kết nối SSH trong quá trình thiết lập Cloud9 khi kết nối với máy chủ Linux của riêng mình. Máy chủ này có thể chạy ở mọi nơi, kể cả AWS, tại chỗ hoặc bất kỳ nhà cung cấp dịch vụ đám mây nào khác.
 - ![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.009.png)*Lịch sử sửa đổi tệp:* AWS Cloud9 lưu giữ lịch sử sửa đổi của các tệp trong môi trường phát triển của bạn. Điều này cho phép bạn nhanh chóng truy cập các thay đổi mã đã được thực hiện trong quá khứ và hoàn nguyên về lần lặp lại trước đó.
 
-![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.010.png)
 
 - *Thiết bị đầu cuối tích hợp:* AWS Cloud9 cung cấp một thiết bị đầu cuối có đầy đủ đặc quyền sudo cho phiên bản Amazon EC2 được quản lý của bạn. Nó cho phép bạn chạy các lệnh, chẳng hạn như đẩy các thay đổi mã sang git, biên dịch mã của bạn hoặc hiển thị đầu ra lệnh từ máy chủ của bạn. Giao diện dòng lệnh AWS xác thực trước được cài đặt trong thiết bị đầu cuối của bạn, cho phép bạn dễ dàng kiểm soát và tương tác với các dịch vụ AWS trực tiếp từ dòng lệnh.
 
-![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.011.png)
+
 
 - *Chuỗi công cụ phân phối liên tục:* AWS Cloud9 tích hợp với AWS CodeStar, cho phép bạn nhanh chóng thiết lập chuỗi công cụ phân phối liên tục từ đầu đến cuối cho ứng dụng của mình và bắt đầu phát hành mã nhanh hơn trên AWS. CodeStar cung cấp trải nghiệm thống nhất cho phép bạn dễ dàng xây dựng, thử nghiệm và triển khai các ứng dụng lên AWS với sự trợ giúp của AWS CodeCommit, AWS CodeBuild, AWS CodePipeline và AWS CodeDeploy.
 
-![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.012.png)
+
 
 - *Hợp tác chỉnh sửa và trò chuyện:* Cộng tác trong thời gian thực Cloud9 IDE cho phép nhiều nhà phát triển. Điều đó có nghĩa là cho phép lập trình theo cặp và nhóm, điều này cho phép nhau gõ và ghép nối các chương trình với nhau trên cùng một tệp.
 
-![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.013.png)
 
 1. Ưu điểm, nhược điểm của AWS Cloud9 và kết luận.
 - Ưu điểm: 
@@ -94,55 +86,20 @@ AWS Cloud 9 là một IDE khá ổn định để lập trình, chạy thử và
 - Quá trình cài đặt:
 - *Đăng nhập và AWS và chọn dịch vụ Cloud 9:*
 
-![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.014.png)![A screenshot of a computer
-
-Description automatically generated with medium confidence](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.015.png)
 
 - *Ở màn hình console, chọn Create Environment:*
 
-![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.014.png)![A screenshot of a computer
-
-Description automatically generated with medium confidence](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.016.png)
-
-
-
-
-
-
 - *Nhập tên môi trường:*
 
-![](IMG/Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.017.png)![Graphical user interface, application, Teams
-
-Description automatically generated](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.018.png)
 
 - *Chọn cấu hình cho IDE:*
-
-![Graphical user interface, text, application
-
-Description automatically generated](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.019.png)
-
-
-
-
 
 
 - *Review trước khi bắt đầu chạy dịch vụ:*
 
-![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.020.png)
-
 - *Màn hình khởi động của AWS Cloud 9:*
 
-![Graphical user interface, text, application, chat or text message
-
-Description automatically generated](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.021.png)
-
 - *Giao diện khi đã khởi động xong:*
-
-![A screenshot of a computer
-
-Description automatically generated with medium confidence](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.022.png)
 
 - Cấu hình dịch vụ:
 - Cài đặt cái package:
