@@ -49,7 +49,7 @@ Các dịch vụ cần chuẩn bị: AWS Cloud9, AWS RDC, AWS Lambda, AWS EC2.
 
 
 - *Khả năng kết nối với mọi nền tảng máy chủ Linux:* Bạn có thể linh hoạt chạy các môi trường phát triển AWS Cloud9 trên phiên bản Amazon EC2 Linux được quản lý hoặc bất kỳ máy chủ Linux nào mà bạn đang sử dụng hiện nay. Bạn chỉ có thể chọn tùy chọn kết nối SSH trong quá trình thiết lập Cloud9 khi kết nối với máy chủ Linux của riêng mình. Máy chủ này có thể chạy ở mọi nơi, kể cả AWS, tại chỗ hoặc bất kỳ nhà cung cấp dịch vụ đám mây nào khác.
-- ![](Aspose.Words.f0dd2a35-677f-47a9-999c-7362dee3da0d.009.png)*Lịch sử sửa đổi tệp:* AWS Cloud9 lưu giữ lịch sử sửa đổi của các tệp trong môi trường phát triển của bạn. Điều này cho phép bạn nhanh chóng truy cập các thay đổi mã đã được thực hiện trong quá khứ và hoàn nguyên về lần lặp lại trước đó.
+- *Lịch sử sửa đổi tệp:* AWS Cloud9 lưu giữ lịch sử sửa đổi của các tệp trong môi trường phát triển của bạn. Điều này cho phép bạn nhanh chóng truy cập các thay đổi mã đã được thực hiện trong quá khứ và hoàn nguyên về lần lặp lại trước đó.
 
 
 - *Thiết bị đầu cuối tích hợp:* AWS Cloud9 cung cấp một thiết bị đầu cuối có đầy đủ đặc quyền sudo cho phiên bản Amazon EC2 được quản lý của bạn. Nó cho phép bạn chạy các lệnh, chẳng hạn như đẩy các thay đổi mã sang git, biên dịch mã của bạn hoặc hiển thị đầu ra lệnh từ máy chủ của bạn. Giao diện dòng lệnh AWS xác thực trước được cài đặt trong thiết bị đầu cuối của bạn, cho phép bạn dễ dàng kiểm soát và tương tác với các dịch vụ AWS trực tiếp từ dòng lệnh.
